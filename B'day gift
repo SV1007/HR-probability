@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+import java.lang.*;
+
+public class Solution {
+	
+	public static void main(String[] args)
+	{
+		double total = 0;
+		Scanner scan = new Scanner(System.in);
+		double steps = scan.nextDouble();
+		while(scan.hasNextLine())
+		{
+			total = total + scan.nextDouble();
+		}
+		System.out.println(0.5 * total);
+	}
+}
+	
+
+
